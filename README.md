@@ -39,7 +39,7 @@ __Additional Criteria__
 We recommend you to build this application using the default package of Go.
 
 ## Application Data
-For the purpose of this task, the application should simply read data from 2 x JSON files. The contents for these files can be found [here](src/App/Ingredient/data.json) and [here](src/App/Recipe/data.json).
+For the purpose of this task, the application should simply read data from 2 x JSON files. The contents for these files can be found [here](ingredient/data.json) and [here](recipe/data.json).
  
 ## Submission
 The application should be committed to a __public repository__ on `GitHub` or `BitBucket` (`<lastname>-<firstname>-techtask-go`) and simply send us a link to the repository.
