@@ -27,7 +27,7 @@ that I can prepare based on the availability of ingredients in my fridge.
 - Given that an ingredient is past its `best-before` date (inclusive), but is still within its `use-by` date (inclusive), any recipe containing the oldest (less fresh) ingredient should placed at the bottom of the response object.
 
 __Additional Criteria__
-- The application MUST contains unit / integration tests (e.g. using `testing` package).
+- The application MUST contains unit / integration tests (e.g. `testing` package).
 - The application MUST be completed using an `OOP` approach.
 - The application MUST get A+ score from [Go Report Card](https://goreportcard.com/) website.
 - Any dependencies MUST be installed using `Go Modules` (no need to commit dependencies, the
@@ -39,7 +39,7 @@ __Additional Criteria__
 We recommend you to build this application using the default package of Go.
 
 ## Application Data
-For the purpose of this task, the application should simply read data from 2 x JSON files. The contents for these files can be found [here](ingredient/data.json) and [here](recipe/data.json).
+For the purpose of this task, the application should simply read data from 2 x JSON files. The contents for these files can be found [here](ingredients/data.json) and [here](recipes/data.json).
  
 ## Submission
 The application should be committed to a __public repository__ on `GitHub` or `BitBucket` (`<lastname>-<firstname>-techtask-go`) and simply send us a link to the repository.
