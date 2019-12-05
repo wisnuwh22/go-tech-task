@@ -31,7 +31,7 @@ __Additional Criteria__
 - The application MUST be completed using an `OOP` approach.
 - The application MUST get A+ score from [Go Report Card](https://goreportcard.com/) website.
 - Any dependencies MUST be installed using `Go Modules` (no need to commit dependencies, the
-`go.sum` file will be sufficient).
+`go.mod` file will be sufficient).
 - Use `Go 1.11` or above.
 - Any installation, build steps, testing and usage instructions MUST be provided in a `README.md` file in the root of the application.
 

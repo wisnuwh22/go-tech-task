@@ -28,7 +28,7 @@ __Kriteria Tambahan__
 - Aplikasi HARUS memiliki unit / integration tests (contohnya `testing` package).
 - Aplikasi HARUS diselesaikan dengan pendekatan `OOP`.
 - Aplikasi HARUS mendapatkan nilai A+ dari [Go Report Card](https://goreportcard.com/) website.
-- Semua dependencies HARUS diinstal melalui `Go Modules` (tidak perlu untuk commit dependencies, cukup `go.sum` saja).
+- Semua dependencies HARUS diinstal melalui `Go Modules` (tidak perlu untuk commit dependencies, cukup file `go.mod` saja).
 - Gunakan versi `Go 1.11` ke atas.
 - Semua instruksi untuk instalasi, cara build, testing dan menjalankan HARUS tersedia pada file `README.md` yang berada di folder utama aplikasi.
 
