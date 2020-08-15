@@ -16,7 +16,7 @@ type recipes struct {
 	Recipes []recipe `json:"recipes"`
 }
 
-func readRecipeJsonFile() recipes {
+func readRecipeJSONFile() recipes {
 	bs, err := ioutil.ReadFile("recipes/data.json")
 	if err != nil {
 		fmt.Println("Error : ", err)

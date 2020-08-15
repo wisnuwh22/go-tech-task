@@ -14,10 +14,10 @@ type ingredient struct {
 }
 
 type ingredients struct {
-	Ingredient []ingredient `json:"ingredients"`
+	Ingredients []ingredient `json:"ingredients"`
 }
 
-func readIngredientJsonFile() ingredients {
+func readIngredientJSONFile() ingredients {
 	bs, err := ioutil.ReadFile("ingredients/data.json")
 	if err != nil {
 		fmt.Println("Error : ", err)

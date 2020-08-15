@@ -8,13 +8,13 @@ import (
 
 func ingredientPage(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	in := readIngredientJsonFile()
+	in := readIngredientJSONFile()
 	json.NewEncoder(w).Encode(in)
 }
 
 func recipePage(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	re := readRecipeJsonFile()
+	re := readRecipeJSONFile()
 	json.NewEncoder(w).Encode(re)
 }
 
