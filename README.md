@@ -1,4 +1,5 @@
-__Language :__ English | [Bahasa Indonesia](README_ID.md)
+__Language :__ English | [Bahasa Indonesia](README_ID.md)              
+[![Go Report Card](https://goreportcard.com/badge/github.com/wisnuwh22/go-tech-task)](https://goreportcard.com/report/github.com/wisnuwh22/go-tech-task)
 
 # Go Technical Task
 Suggested recipes for lunch API
