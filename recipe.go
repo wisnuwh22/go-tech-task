@@ -15,10 +15,10 @@ type recipe struct {
 type recipes []recipe
 
 func readRecipeJsonFile() recipes {
-	bs, err := ioutil.ReadFile("recipess/data.json")
+	bs, err := ioutil.ReadFile("recipes/data.json")
 	if err != nil {
 		fmt.Println("Error : ", err)
-		os.Exit(0)
+		os.Exit(1)
 	}
 
 	r := recipes{}
@@ -26,7 +26,7 @@ func readRecipeJsonFile() recipes {
 
 	if err != nil {
 		fmt.Println("Error : ", err)
-		os.Exit(0)
+		os.Exit(1)
 	}
 
 	return r

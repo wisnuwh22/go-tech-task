@@ -19,7 +19,7 @@ func readIngredientJsonFile() ingredients {
 	bs, err := ioutil.ReadFile("ingredients/data.json")
 	if err != nil {
 		fmt.Println("Error : ", err)
-		os.Exit(0)
+		os.Exit(1)
 	}
 
 	i := ingredients{}
@@ -27,7 +27,7 @@ func readIngredientJsonFile() ingredients {
 
 	if err != nil {
 		fmt.Println("Error : ", err)
-		os.Exit(0)
+		os.Exit(1)
 	}
 
 	return i
