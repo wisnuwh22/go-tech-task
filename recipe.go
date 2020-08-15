@@ -12,7 +12,9 @@ type recipe struct {
 	Ingredients []string `json:"Ingredients"`
 }
 
-type recipes []recipe
+type recipes struct {
+	Recipes []recipe `json:"recipes"`
+}
 
 func readRecipeJsonFile() recipes {
 	bs, err := ioutil.ReadFile("recipes/data.json")

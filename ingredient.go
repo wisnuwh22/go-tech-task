@@ -13,7 +13,9 @@ type ingredient struct {
 	UseBy      string `json:"use-by"`
 }
 
-type ingredients []ingredient
+type ingredients struct {
+	Ingredient []ingredient `json:"ingredients"`
+}
 
 func readIngredientJsonFile() ingredients {
 	bs, err := ioutil.ReadFile("ingredients/data.json")
